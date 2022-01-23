@@ -341,13 +341,15 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    // if (score <= 9) return '你根本不在意我呜呜呜(Ｔ▽Ｔ)';
-    if (score <= 9) return '啊——看起来我的分量还蛮重的哦 (◦˙▽˙◦)';
+    if (score <= 9) return '你根本不在意我呜呜呜(Ｔ▽Ｔ)';
     if (score <= 29) return '你不是认真的对不对( ๑ŏ﹏ŏ๑ )';
     if (score <= 49) return '真的有在努力吗！( 。ớ ₃ờ)ھ';
     if (score <= 69) return '好吧好吧…我开始感受到了哦 Õ_Õ';
     if (score <= 89) return '啊——看起来我的分量还蛮重的哦 (◦˙▽˙◦)';
-    if (score <= 69) return '好吧好吧…我开始感受到了哦 Õ_Õ';
+    if (score <= 109) return 'Ｏ(≧▽≦)Ｏ 但是我还要多喜欢你一点哼哼！';
+    if (score <= 139) return '哎呀… 勉勉强强算打平啦… o(*////▽////*)q ';
+    if (score <= 189) return '好像…又…玩不过你惹…orz';
+    if (score <= 299) return '不准作弊！ o(´^｀)o';
 }
 
 function toStr(obj) {
